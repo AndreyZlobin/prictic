@@ -1,0 +1,55 @@
+// CSS
+html {
+  // --max-width: 1180px;
+  // --header-mobile-height: 100px;
+}
+
+// SCSS
+
+$max-width: 1220px;
+
+// COLORS
+
+// $color1: #019B43;
+$color1: #54a747;
+$color2: #a9dcab;
+$color3: #ffd645;
+$color4: #df0202;
+$color5: #3a2700;
+$color6: #000;
+$color7: #fff;
+$color8: #fec34c;
+$color9: rgba(137, 136, 136, 0.25);
+
+$font-color-green: $color1;
+$font-color-light-green: $color2;
+$font-color-yellow: $color3;
+$font-color-red: $color4;
+$font-color-black: $color6;
+$font-color-white: $color7;
+$shadow-color: 4px 4px 35px $color9;
+// $bg-color: $color1;
+// $bg-color-main: $bg-color;
+// $bg-color-alt: $color7;
+// $bg-color-bright: $color8;
+
+// SIZES
+
+// FONTS
+$serif: "Merriweather", serif;
+$sans-serif: "Montserrat", sans-serif;
+$main-font-family: $sans-serif;
+
+//screen sizes max
+$xs: 479px;
+$sm: 575px;
+$md: 767px;
+$lg: 991px;
+$xl: 1199px;
+
+//screen sizes min
+$xs: 480px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;

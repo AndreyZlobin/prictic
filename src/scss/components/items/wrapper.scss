@@ -1,0 +1,14 @@
+.wrapper {
+  $wrapper-width: $max-width;
+
+  width: $wrapper-width;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  @include screen(1199) {
+    width: 100%;
+  }
+  &.wrapper-fixed {
+    position: fixed;
+  }
+}

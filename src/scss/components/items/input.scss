@@ -1,0 +1,5 @@
+.input {
+  @include input-border(1, $font-color-green);
+  height: 30px;
+  // width: 200px;
+}
